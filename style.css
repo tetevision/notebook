@@ -1,69 +1,69 @@
-<!-- style.css (create a separate file named style.css) -->
 body {
   margin: 0;
-  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  background-color: #fff9ec;
-  color: #333;
-  line-height: 1.6;
+  font-family: 'Spoqa Han Sans Neo', sans-serif;
+  background: #f9f9f9;
+  color: #111;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 header {
-  background-color: #fff3c7;
-  padding: 1em;
-  border-bottom: 2px dashed #d4b66a;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
-h1 {
-  margin: 0;
+header h1 {
   font-size: 2.5em;
+  margin: 0;
 }
 
 nav a {
-  margin: 0 10px;
+  margin-left: 20px;
   text-decoration: none;
-  color: #6b4c3b;
-  font-size: 1.2em;
+  color: #555;
+  font-weight: 500;
 }
 
-main {
-  padding: 2em;
+.hero h2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #222;
 }
 
-.welcome {
-  text-align: center;
-  margin-bottom: 2em;
+.about-text p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
 }
 
-.preview {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.card {
-  background: #fffef7;
-  border: 1px solid #e5d9b6;
-  padding: 1.5em;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+.grid-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
 
-.card h3 {
+.grid-item h3 {
   margin-top: 0;
 }
 
-.card a {
-  color: #007b7f;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 footer {
-  text-align: center;
-  padding: 1em;
+  margin-top: 80px;
   font-size: 0.9em;
-  color: #999;
-  border-top: 1px dashed #ddd;
-  margin-top: 2em;
+  color: #888;
+  text-align: center;
 }
